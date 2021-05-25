@@ -1,7 +1,31 @@
 COP  49   3
-COP   1  49
-COP  49   9
-COP  48   2
-MUL  47   1  48
-ADD  46  49  47
-AFC   2  46
+AFC   0  49
+COP  49   4
+AFC   1  49
+COP  49   8
+AFC   2  49
+ADD  49   0   1
+DIV  48   2   1
+ADD  47   0  48
+MUL  46  49  47
+AFC   3  46
+COP  49   6
+DIV  48   2  49
+JMF  48  17
+COP  47   2
+AFC   1  47
+JMP  19
+COP  49   1
+AFC   1  49
+PRI   3
+COP  49   1
+DIV  48   1  49
+COP  47   4
+INF  46   2  47
+ADD  45  48  46
+JMF  45  30
+COP  44   1
+ADD  43   2  44
+AFC   2  43
+JMP  20
+PRI   0
