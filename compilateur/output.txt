@@ -1,0 +1,7 @@
+COP  49   3
+COP   1  49
+COP  49   9
+COP  48   2
+MUL  47   1  48
+ADD  46  49  47
+AFC   2  46
