@@ -4,7 +4,7 @@ DIR_SOURCE = src
 DIR_BUILD = build
 
 
-FILE_TEST= test6.c
+FILE_TEST= test1.c
 LEX = al.lex
 EXE_LEX = compile
 OUT_LEX = yy.lex.c
